@@ -61,7 +61,7 @@ status-website:
   # cname: demo.upptime.js.org
   baseUrl: /status-nbsap
   logoUrl: https://conuti.de/wp-content/uploads/2023/05/CONUTI-MACO-APP-Icon_blau_gruen-300x284.png
-  name: LIEF RCS Stage
+  name: NETZ SAP Stage
   introTitle: "**NETZ** Status"
   introMessage: Components status overiew page
   navbar:
