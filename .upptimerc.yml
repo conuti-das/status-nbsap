@@ -18,7 +18,7 @@ sites:
   - name: CC - PMON API
     url: $PMON_URL
   - name: CC - BACKOFFICE POC
-    url: https://dev.nb-sap.macoapp.de
+    url: https://dev.netz-sap.macoapp.de
   - name: CC - RABBITMQ MANAMGEMENT
     url: $RABBITMQ_MANAGEMENT    
   - name: MCS - ADMIN UI
@@ -68,7 +68,7 @@ status-website:
     - title: Status
       href: /status-nbsap
     - title: Backoffice
-      href: https://dev.nb-sap.macoapp.de
+      href: https://dev.netz-sap.macoapp.d
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
