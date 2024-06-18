@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cc-api-gateway",
     "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
+    "uptime": "0.01%",
+    "uptimeDay": "0.01%",
+    "uptimeWeek": "0.01%",
+    "uptimeMonth": "0.01%",
+    "uptimeYear": "0.01%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 1
+      "2024-06-18": 8
     }
   },
   {
@@ -36,7 +36,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 1
+      "2024-06-18": 8
     }
   },
   {
@@ -56,7 +56,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 1
+      "2024-06-18": 8
     }
   },
   {
@@ -65,18 +65,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cc-backoffice-api",
     "status": "down",
-    "uptime": "1.29%",
-    "uptimeDay": "1.29%",
-    "uptimeWeek": "1.29%",
-    "uptimeMonth": "1.29%",
-    "uptimeYear": "1.29%",
+    "uptime": "0.18%",
+    "uptimeDay": "0.18%",
+    "uptimeWeek": "0.18%",
+    "uptimeMonth": "0.18%",
+    "uptimeYear": "0.18%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 1
+      "2024-06-18": 8
     }
   },
   {
@@ -84,66 +84,6 @@
     "url": "$BACKOFFICE_WEB",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cc-backoffice-web",
-    "status": "down",
-    "uptime": "1.73%",
-    "uptimeDay": "1.73%",
-    "uptimeWeek": "1.73%",
-    "uptimeMonth": "1.73%",
-    "uptimeYear": "1.73%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
-    "dailyMinutesDown": {
-      "2024-06-18": 1
-    }
-  },
-  {
-    "name": "CC - KEYCLOAK",
-    "url": "$KEYCLOAK_URL",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "cc-keycloak",
-    "status": "down",
-    "uptime": "0.21%",
-    "uptimeDay": "0.21%",
-    "uptimeWeek": "0.21%",
-    "uptimeMonth": "0.21%",
-    "uptimeYear": "0.21%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
-    "dailyMinutesDown": {
-      "2024-06-18": 1
-    }
-  },
-  {
-    "name": "CC - NOCODB API",
-    "url": "$NOCODB_API",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "cc-nocodb-api",
-    "status": "down",
-    "uptime": "1.02%",
-    "uptimeDay": "1.02%",
-    "uptimeWeek": "1.02%",
-    "uptimeMonth": "1.02%",
-    "uptimeYear": "1.02%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
-    "dailyMinutesDown": {
-      "2024-06-18": 1
-    }
-  },
-  {
-    "name": "CC - PMON API",
-    "url": "$PMON_URL",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "cc-pmon-api",
     "status": "down",
     "uptime": "0.00%",
     "uptimeDay": "0.00%",
@@ -156,7 +96,47 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 1
+      "2024-06-18": 8
+    }
+  },
+  {
+    "name": "CC - KEYCLOAK",
+    "url": "$KEYCLOAK_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "cc-keycloak",
+    "status": "down",
+    "uptime": "0.06%",
+    "uptimeDay": "0.06%",
+    "uptimeWeek": "0.06%",
+    "uptimeMonth": "0.06%",
+    "uptimeYear": "0.06%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2024-06-18": 8
+    }
+  },
+  {
+    "name": "CC - PMON API",
+    "url": "$PMON_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "cc-pmon-api",
+    "status": "down",
+    "uptime": "0.07%",
+    "uptimeDay": "0.07%",
+    "uptimeWeek": "0.07%",
+    "uptimeMonth": "0.07%",
+    "uptimeYear": "0.07%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2024-06-18": 8
     }
   },
   {
@@ -170,11 +150,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 631,
-    "timeDay": 631,
-    "timeWeek": 631,
-    "timeMonth": 631,
-    "timeYear": 631,
+    "time": 582,
+    "timeDay": 582,
+    "timeWeek": 582,
+    "timeMonth": 582,
+    "timeYear": 582,
     "dailyMinutesDown": {}
   },
   {
@@ -183,18 +163,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cc-rabbitmq-manamgement",
     "status": "down",
-    "uptime": "0.50%",
-    "uptimeDay": "0.50%",
-    "uptimeWeek": "0.50%",
-    "uptimeMonth": "0.50%",
-    "uptimeYear": "0.50%",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 1
+      "2024-06-18": 8
     }
   },
   {
@@ -203,18 +183,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "mcs-admin-ui",
     "status": "down",
-    "uptime": "0.48%",
-    "uptimeDay": "0.48%",
-    "uptimeWeek": "0.48%",
-    "uptimeMonth": "0.48%",
-    "uptimeYear": "0.48%",
+    "uptime": "0.14%",
+    "uptimeDay": "0.14%",
+    "uptimeWeek": "0.14%",
+    "uptimeMonth": "0.14%",
+    "uptimeYear": "0.14%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 0
+      "2024-06-18": 8
     }
   },
   {
@@ -223,18 +203,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "mcs-portal-ui",
     "status": "down",
-    "uptime": "1.97%",
-    "uptimeDay": "1.97%",
-    "uptimeWeek": "1.97%",
-    "uptimeMonth": "1.97%",
-    "uptimeYear": "1.97%",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 0
+      "2024-06-18": 8
     }
   },
   {
@@ -254,7 +234,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 0
+      "2024-06-18": 7
     }
   },
   {
@@ -263,18 +243,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "mcs-ui",
     "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 0
+      "2024-06-18": 7
     }
   },
   {
@@ -294,7 +274,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 0
+      "2024-06-18": 7
     }
   },
   {
@@ -303,18 +283,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "mps-datakeeper",
     "status": "down",
-    "uptime": "1.07%",
-    "uptimeDay": "1.07%",
-    "uptimeWeek": "1.07%",
-    "uptimeMonth": "1.07%",
-    "uptimeYear": "1.07%",
+    "uptime": "0.03%",
+    "uptimeDay": "0.03%",
+    "uptimeWeek": "0.03%",
+    "uptimeMonth": "0.03%",
+    "uptimeYear": "0.03%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 0
+      "2024-06-18": 7
     }
   },
   {
@@ -323,18 +303,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "mps-datakeeper-api-search",
     "status": "down",
-    "uptime": "2.31%",
-    "uptimeDay": "2.31%",
-    "uptimeWeek": "2.31%",
-    "uptimeMonth": "2.31%",
-    "uptimeYear": "2.31%",
+    "uptime": "0.07%",
+    "uptimeDay": "0.07%",
+    "uptimeWeek": "0.07%",
+    "uptimeMonth": "0.07%",
+    "uptimeYear": "0.07%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 0
+      "2024-06-18": 7
     }
   },
   {
@@ -354,6 +334,26 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
+      "2024-06-18": 7
+    }
+  },
+  {
+    "name": "MPS - ERP KONNEKTOR TEST",
+    "url": "$KONNEKTOR_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "mps-erp-konnektor-test",
+    "status": "down",
+    "uptime": "0.17%",
+    "uptimeDay": "0.17%",
+    "uptimeWeek": "0.17%",
+    "uptimeMonth": "0.17%",
+    "uptimeYear": "0.17%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
       "2024-06-18": 0
     }
   },
@@ -363,18 +363,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "mps-nifi",
     "status": "down",
-    "uptime": "0.40%",
-    "uptimeDay": "0.40%",
-    "uptimeWeek": "0.40%",
-    "uptimeMonth": "0.40%",
-    "uptimeYear": "0.40%",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 0
+      "2024-06-18": 7
     }
   },
   {
@@ -394,7 +394,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 0
+      "2024-06-18": 7
     }
   },
   {
@@ -414,7 +414,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-06-18": 0
+      "2024-06-18": 7
     }
   },
   {
