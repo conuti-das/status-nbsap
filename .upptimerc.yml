@@ -1,36 +1,74 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: conuti-das # Your GitHub organization or username, where this repository lives
+repo: status-nbsap # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: CC - API GATEWAY
+    url: $GATEWAY_URL  
+  - name: CC - API PORTAL
+    url: $PORTAL_URL  
+  - name: CC - API MANAGEMENT
+    url: $APIMANAGEMENT_URL  
+  - name: CC - BACKOFFICE API
+    url: $BACKOFFICE_API
+  - name: CC - BACKOFFICE WEB
+    url: $BACKOFFICE_WEB
+  - name: CC - KEYCLOAK
+    url: $KEYCLOAK_URL
+  - name: CC - NOCODB API
+    url: $NOCODB_API  
+  - name: CC - PMON API
+    url: $PMON_URL
+  - name: CC - BACKOFFICE POC
+    url: https://dev.lief.macoapp.de
+  - name: CC - RABBITMQ MANAMGEMENT
+    url: $RABBITMQ_MANAGEMENT    
+  - name: MCS - ADMIN UI
+    url: $MCS_ADMIN
+  - name: MCS - PORTAL UI
+    url: $MCS_PORTAL
+  - name: MCS - BUILD INFO UI
+    url: $MCS_BUILD_INFO
+  - name: MCS - UI
+    url: $MCS_UI
+  - name: MPS - CAMUNDA
+    url: $MPS_CAMUNDA     
+  - name: MPS - DATAKEEPER
+    url: $DATAKEEPER_URL   
+  - name: MPS - DATAKEEPER API SEARCH
+    url: $DATAKEEPER_SEARCH_URL
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404         
+  - name: MPS - DK PROCESS HISTORY 
+    url: $DATAKEEPER_PH_URL      
+  - name: MPS - NIFI
+    url: $MPS_NIFI
+  - name: MPS - TASKER
+    url: $TASKER_URL  
+  - name: MPS - TESTPROCESS
+    url: $TESTPROCESS_URL
+    __dangerous__body_down_if_text_missing: '"status":"up"'
+  - name: MPS - TEMPLATER
+    url: $TEMPLATER_URL
+ 
+    
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # cname: demo.upptime.js.org
+  baseUrl: /status-nbsap
+  logoUrl: https://conuti.de/wp-content/uploads/2023/05/CONUTI-MACO-APP-Icon_blau_gruen-300x284.png
+  name: LIEF RCS Stage
+  introTitle: "**NETZ** Status"
+  introMessage: Components status overiew page
   navbar:
     - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: /status-nbsap
+    - title: Backoffice
+      href: https://dev.nb-sap.macoapp.de
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
