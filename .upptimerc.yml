@@ -15,8 +15,6 @@ sites:
     url: $BACKOFFICE_WEB
   - name: CC - KEYCLOAK
     url: $KEYCLOAK_URL
-  - name: CC - NOCODB API
-    url: $NOCODB_API  
   - name: CC - PMON API
     url: $PMON_URL
   - name: CC - BACKOFFICE POC
@@ -42,7 +40,9 @@ sites:
       - 201
       - 404         
   - name: MPS - DK PROCESS HISTORY 
-    url: $DATAKEEPER_PH_URL      
+    url: $DATAKEEPER_PH_URL 
+  - name: MPS - ERP KONNEKTOR TEST
+    url: $KONNEKTOR_URL       
   - name: MPS - NIFI
     url: $MPS_NIFI
   - name: MPS - TASKER
