@@ -4,11 +4,11 @@ repo: status-nbsap # The name of this repository
 
 sites:
   - name: CC - API GATEWAY
-    url: $GATEWAY_URL  
+    url: $GATEWAY_URL
   - name: CC - API PORTAL
-    url: $PORTAL_URL  
+    url: $PORTAL_URL
   - name: CC - API MANAGEMENT
-    url: $APIMANAGEMENT_URL  
+    url: $APIMANAGEMENT_URL
   - name: CC - BACKOFFICE API
     url: $BACKOFFICE_API
   - name: CC - BACKOFFICE WEB
@@ -20,7 +20,7 @@ sites:
   - name: CC - BACKOFFICE POC
     url: https://dev.netz-sap.macoapp.de
   - name: CC - RABBITMQ MANAMGEMENT
-    url: $RABBITMQ_MANAGEMENT    
+    url: $RABBITMQ_MANAGEMENT
   - name: MCS - ADMIN UI
     url: $MCS_ADMIN
   - name: MCS - PORTAL UI
@@ -30,30 +30,30 @@ sites:
   - name: MCS - UI
     url: $MCS_UI
   - name: MPS - CAMUNDA
-    url: $MPS_CAMUNDA     
+    url: $MPS_CAMUNDA
   - name: MPS - DATAKEEPER
-    url: $DATAKEEPER_URL   
+    url: $DATAKEEPER_URL
   - name: MPS - DATAKEEPER API SEARCH
     url: $DATAKEEPER_SEARCH_URL
     expectedStatusCodes:
       - 200
       - 201
-      - 404         
-  - name: MPS - DK PROCESS HISTORY 
-    url: $DATAKEEPER_PH_URL 
+      - 404
+  - name: MPS - DK PROCESS HISTORY
+    url: $DATAKEEPER_PH_URL
   - name: MPS - ERP KONNEKTOR TEST
-    url: $KONNEKTOR_URL       
+    url: $KONNEKTOR_URL
   - name: MPS - NIFI
     url: $MPS_NIFI
   - name: MPS - TASKER
-    url: $TASKER_URL  
+    url: $TASKER_URL
   - name: MPS - TESTPROCESS
     url: $TESTPROCESS_URL
     __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: MPS - TEMPLATER
     url: $TEMPLATER_URL
- 
-    
+
+
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -63,12 +63,12 @@ status-website:
   logoUrl: https://conuti.de/wp-content/uploads/2023/05/CONUTI-MACO-APP-Icon_blau_gruen-300x284.png
   name: NETZ SAP Stage
   introTitle: "**NETZ** Status"
-  introMessage: Components status overiew page
+  introMessage: Components status overview page
   navbar:
     - title: Status
       href: /status-nbsap
     - title: Backoffice
-      href: https://dev.netz-sap.macoapp.d
+      href: https://dev.netz-sap.macoapp.de
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
