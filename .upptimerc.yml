@@ -39,8 +39,8 @@ sites:
       - 200
       - 201
       - 404
-  - name: MPS - DK PROCESS HISTORY
-    url: $DATAKEEPER_PH_URL
+  - name: MPS - PROCESS HISTORY
+    url: $PROCESS_HSITORY_URL    
   - name: MPS - SAP D1N KONNEKTOR TEST
     url: $KONNEKTOR_URL
   - name: MPS - NIFI
