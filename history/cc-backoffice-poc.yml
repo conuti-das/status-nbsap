@@ -1,7 +1,7 @@
 url: https://dev.netz-sap.macoapp.de
-status: up
-code: 200
-responseTime: 558
-lastUpdated: 2025-01-09T23:05:58.976Z
+status: down
+code: 403
+responseTime: 866
+lastUpdated: 2025-01-10T16:33:24.335Z
 startTime: 2024-06-18T12:53:35.005Z
 generator: Upptime <https://github.com/upptime/upptime>
